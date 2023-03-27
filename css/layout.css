@@ -30,7 +30,7 @@
   
   /* Style the topnav links */
   .topnav a {
-    float: left;
+    float:left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -47,7 +47,7 @@
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {   
-    float: left;
+    float:left;
     width: 75%;
   }
   
@@ -84,7 +84,7 @@
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #cdf3ff;
     margin-top: 20px;
   }
   
@@ -103,3 +103,32 @@
       width: 100%;
     }
   }
+
+  nav {
+     text-align: center;
+     background-color: #767676;
+    }
+    
+    nav ul {
+     display: inline-block;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+    }
+    
+    nav ul li {
+     display: inline-block;
+     margin: 0 10px;
+    }
+    
+    nav ul li a {
+     display: block;
+     padding: 10px;
+     color: #ffffff;
+     text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+     color: #07daff;
+     background-color: #b44242;
+    }
