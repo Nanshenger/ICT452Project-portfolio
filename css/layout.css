@@ -132,3 +132,11 @@
      color: #07daff;
      background-color: #b44242;
     }
+    
+    .container {
+      display: flex;
+      flex-direction: column; /* Set vertical arrangement of child elements */
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Set the height of the container to center the internal elements */
+    }
